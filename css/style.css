@@ -739,15 +739,15 @@ img.svg{
 }
 .arlo_tm_about_wrap .about_short_contact_wrap ul li a:link{
 	text-decoration:underline;
-	color: #fff;
+	color: blue;
 	font-weight: 600;
 	font-size: 15px;
 }
 .arlo_tm_about_wrap .about_short_contact_wrap ul li a:hover{
-	color: blue;
+	color: #A56240 ;
 }
 .arlo_tm_about_wrap .about_short_contact_wrap ul li a:active{
-	color: red;
+	color: #A56240 ;
 }
 
 .arlo_tm_about_wrap .about_short_contact_wrap ul li:nth-of-type(2n){clear: right;}
@@ -1004,6 +1004,7 @@ img.svg{
 	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
 			box-sizing: border-box; /* Opera/IE 8+ */ 
 }
+.arlo_tm_services_wrap .list_wrap p strong{color: #E3872D;}
 .arlo_tm_services_wrap .list_wrap ul{
 	margin: 0px 0px 0px -30px;
 	list-style-type: none;
@@ -1013,11 +1014,12 @@ img.svg{
 	float: left;
 	width: 100%;
 	padding-left: 30px;
-	
+
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
 	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
-			box-sizing: border-box; /* Opera/IE 8+ */ 
+			box-sizing: border-box; /* Opera/IE 8+ */
 }
+
 .arlo_tm_services_wrap .list_wrap ul li:nth-of-type(2n){clear: right;}
 .arlo_tm_services_wrap .list_wrap ul label{
 	font-family: "Montserrat";
@@ -1047,6 +1049,7 @@ img.svg{
 	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
 			box-sizing: border-box; /* Opera/IE 8+ */ 
 }
+
 .arlo_tm_services_wrap .list_wrap ul li .inner:hover{top: -5px;}
 .arlo_tm_services_wrap .list_wrap ul li .icon{margin-bottom: 21px;}
 .arlo_tm_services_wrap .list_wrap ul li .icon .svg{
@@ -1094,6 +1097,8 @@ img.svg{
 	width: 50%;
 	float: left;
 }
+
+
 /*---------------------------------------------------*/
 /*	05) ARLO COUNTERBOX
 /*---------------------------------------------------*/
@@ -1538,6 +1543,7 @@ img.svg{
 .arlo_tm_projects_wrap .title_holder h3 a:hover{color: #E3872D;}
 .arlo_tm_projects_wrap .definition{margin-bottom: 26px;}
 .arlo_tm_projects_wrap .definition p{color: #333;}
+.arlo_tm_projects_wrap .definition p strong{color: #E3872D;}
 .arlo_tm_projects_wrap .read_more a{
 	text-decoration: none;
     color: #fff;
@@ -1649,6 +1655,7 @@ img.svg{
 	background-position: center;
 	background-repeat: no-repeat;
 }
+.arlo_tm_news_wrap .definitions_wrap p strong{color: #E3872D;}
 .arlo_tm_news_wrap .date_wrap{margin-bottom: 16px;}
 .arlo_tm_news_wrap .date_wrap p{
 	color: #333;
@@ -1656,6 +1663,7 @@ img.svg{
 	font-weight: 600;
 }
 .arlo_tm_news_wrap .full_def{display: none;}
+
 .arlo_tm_news_wrap .date_wrap p a{
 	color: #000;
 	text-decoration: none;
@@ -1922,7 +1930,7 @@ img.svg{
 	right: 13px;
 	transform: rotate(135deg);
 }
-
+#arlo_tm_popup_blog .definitions_wrap p strong{color: #E3872D;}
 /*---------------------------------------------------*/
 /*	09) ARLO CONTACT
 /*---------------------------------------------------*/
